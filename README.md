@@ -175,3 +175,5 @@ Pilihan 2: Menampilkan data mahasiswa menggunakan View.tampilkan_tabel.
 Pilihan 3: Keluar dari program.
 
 # Hasil Run
+
+![Screenshot 2025-01-09 200836](https://github.com/user-attachments/assets/f42baf23-57ae-4e7a-adcb-7d378536cc17)
