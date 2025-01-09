@@ -109,3 +109,69 @@ if __name__ == "__main__":
         else:
         
             print("Pilihan tidak valid!")
+
+ # Penjelasan
+ 1. Class Mahasiswa
+    
+Class ini berfungsi untuk menyimpan data mahasiswa.
+
+Attributes:
+
+nama: menyimpan nama mahasiswa.
+
+nim: menyimpan NIM mahasiswa.
+
+nilai: menyimpan nilai mahasiswa.
+
+2. Class View
+
+Class ini bertanggung jawab untuk menampilkan data mahasiswa dalam bentuk tabel.
+
+Method tampilkan_tabel:
+
+Input: list objek Mahasiswa.
+
+Output: Tabel berisi nama, NIM, dan nilai mahasiswa.
+
+Menampilkan data dalam format tabel dengan header dan garis pembatas.
+
+3. Class Process
+   
+Class ini bertanggung jawab untuk memproses data mahasiswa, termasuk menambahkan mahasiswa baru.
+
+- Method tambah_mahasiswa:
+
+- Input: list untuk menyimpan data mahasiswa.
+
+Proses:
+
+Meminta input dari pengguna untuk nama, NIM, dan nilai.
+
+Memvalidasi input:
+
+NIM harus berupa angka.
+
+Nilai harus di antara 0 dan 100.
+
+Jika validasi berhasil, membuat objek Mahasiswa dan menambahkannya ke list.
+
+Jika terjadi kesalahan, menampilkan pesan error.
+
+Output: Menampilkan pesan berhasil atau error.
+
+4. Fungsi main
+
+Bagian ini merupakan antarmuka utama program (menu interaktif).
+
+
+Inisialisasi: data_mahasiswa sebagai list kosong untuk menyimpan data.
+
+Menu interaktif:
+
+Pilihan 1: Menambahkan data mahasiswa menggunakan Process.tambah_mahasiswa.
+
+Pilihan 2: Menampilkan data mahasiswa menggunakan View.tampilkan_tabel.
+
+Pilihan 3: Keluar dari program.
+
+# Hasil Run
